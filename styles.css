@@ -23,7 +23,6 @@ main {
 
 section {
   flex: 1;
-  /* display: flex; */
 }
 
 /* Header */
@@ -171,6 +170,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 30px 0;
 }
 .quote-container {
   display: flex;
@@ -191,6 +191,41 @@ a {
 }
 .author {
   font-weight: 800;
+}
+
+/* Action Section */
+.action-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-container {
+  background-color: #3882f6;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+  margin: 40px 0;
+  width: 650px;
+}
+.action-phrase > h1 {
+  color: #fff;
+  font-size: 16px;
+}
+.action-phrase > p {
+  color: #e5e7eb;
+  font-size: 12px;
+}
+
+.action-button {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  padding: 5px 25px;
+  font-size: 12px;
+  border-radius: 4px;
+  border: 1px solid white;
 }
 
 /* Footer */
