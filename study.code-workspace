@@ -1,0 +1,17 @@
+{
+  "folders": [
+	{
+		"path": "../css-exercises"
+	},
+	{
+		"path": "../odin-recipes"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "landing-page",
+    "liveServer.settings.port": 5501
+  }
+}
